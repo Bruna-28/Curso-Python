@@ -1,5 +1,5 @@
-base = float(input("Digite a base do triangulo: "))
-altura = float(input("Digite a altura do triangulo: "))
+base = float(input("Digite a base do retângulo: "))
+altura = float(input("Digite a altura do retângulo: "))
 
 area = base * altura
 
