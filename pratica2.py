@@ -30,6 +30,6 @@ string1 = input("Digite a primeira palavra: ")
 string2 = input("Digite a segunda palavra: ")
 
 if string1 == string2:
-  print(f"A primeira palavra é igual a segunda")
+  print(f"A primeira palavra é igual a segunda palavra.")
 else:
-  print(f"A primeira palavra é diferente a segunda")
+  print(f"A primeira palavra é diferente da segunda palavra.")
