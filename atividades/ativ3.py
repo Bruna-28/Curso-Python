@@ -16,7 +16,7 @@ if idade >= 18:
     if habilitado == "Sim":
         print("Você é de maior, e possui habilitação.")
     elif idade >= 18 and habilitado != "Sim":
-        print("Você é de maior, mas não tem habilitação.")
+        print("Você é de maior, mas não possui habilitação.")
     else:
         print("Entrada inválida!")
 
