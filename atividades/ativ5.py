@@ -9,7 +9,7 @@ use o operador de atribuição -= para aplicar um desconto de 5%.
 preco = float(input("Digite um preço para saber o seu descontonto: "))
 porcetagem_fixa = 5
 preco_fixo = 50
-porCento_mult = 0
+
 
 if preco < preco_fixo:
     porcent1 = porcetagem_fixa * 1
