@@ -16,24 +16,24 @@ if preco < preco_fixo:
 
     if porCento_mult >= 0:
         print(f"Para o preço de {preco}, com {porcent1}%. ")
-        novo_preco = (preco * porcent1) / 100
-        preco_Desconto = preco - novo_preco
-        print(f"O novo valor com desconto é {preco_Desconto} com desconto de {porcent1}%")
+        porcentagem_desconto1 = (preco * porcent1) / 100
+        preco_Desconto = preco - porcentagem_desconto1
+        print(f"O novo valor com desconto é {preco_Desconto} com desconto de R${porcentagem_desconto1}")
 
-elif preco > preco_fixo or preco < 500:
+if preco > preco_fixo:
     porcent2 = porcetagem_fixa * 2
 
     if porCento_mult >= 0:
         print(f"Para o preço de {preco}, com {porcent2}%. ")
-        novo_preco = (preco * porcent2) / 100
-        preco_Desconto = preco - novo_preco
-        print(f"O novo valor com desconto é {preco_Desconto} com desconto de {porcent2}%")
+        porcentagem_desconto2 = (preco * porcent2) / 100
+        preco_Desconto = preco - porcentagem_desconto2
+        print(f"O novo valor com desconto é {preco_Desconto} com desconto de R${porcentagem_desconto2}")
 
-elif preco > 500:
-    porcent3 = 15
-    if porcent3 >= 0:
+if preco > 500:
+    porcent3 = porcetagem_fixa * 3
+    if porcent3 == 15:
         print(f"Para o preço de {preco}, com {porcent3}%. ")
-        novo_preco = (preco * porcent3) / 100
-        preco_Desconto = preco - novo_preco
-        print(f"O novo valor com desconto é {preco_Desconto} com desconto de {porcent3}%")
+        porcentagem_desconto3 = (preco * porcent3) / 100
+        preco_Desconto = preco - porcentagem_desconto3
+        print(f"O novo valor com desconto é {preco_Desconto} com desconto de R${porcentagem_desconto3}")
     
