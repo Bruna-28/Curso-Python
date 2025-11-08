@@ -14,7 +14,7 @@ porCento_mult = 0
 if preco < preco_fixo:
     porcent1 = porcetagem_fixa * 1
 
-    if porCento_mult >= 0:
+    if porcent1 >= 0:
         print(f"Para o preço de {preco}, com {porcent1}%. ")
         porcentagem_desconto1 = (preco * porcent1) / 100
         preco_Desconto = preco - porcentagem_desconto1
@@ -23,7 +23,7 @@ if preco < preco_fixo:
 if preco > preco_fixo:
     porcent2 = porcetagem_fixa * 2
 
-    if porCento_mult >= 0:
+    if porcent2 >= 0:
         print(f"Para o preço de {preco}, com {porcent2}%. ")
         porcentagem_desconto2 = (preco * porcent2) / 100
         preco_Desconto = preco - porcentagem_desconto2
