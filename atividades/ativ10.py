@@ -11,4 +11,4 @@ media = 6
 if nota_verificar >= media:
     print(f"A nota do aluno {nota_verificar}, aprovado!")
 else:
-    print(f"Nota {nota_verificar}, logo não alcançou a media {media}. Reprovado! ")
+    print(f"Nota {nota_verificar}, logo não alcançou a media {media}. Reprovado!")
