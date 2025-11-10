@@ -7,11 +7,18 @@
 """
 number = int(input("Digite um número: "))
 
-if number % 2 == 0 or number % 2 != 0:
+if number % 2 == 0 :
     print(f"Esse número {number}, é par!")
+    if number > 0:
+        print("Ele é um número positivo!")
+    elif number < 0:
+        print("Ele é um número  negativo!")
+elif number % 2 != 0 :
     print(f"Esse número {number} é ímpar!")
-elif number > 0 or number < 0 :
-    print(f"É um número negativo!")
-    print(f"É um número positivo!")
+    if number > 0:
+        print("Ele é um número positivo!")
+    elif number < 0:
+        print("Ele é um número negativo!")
+    
 
     
