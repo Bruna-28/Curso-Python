@@ -22,9 +22,9 @@ obesidade_II = 39.9
 
 if IMC < abaixo_peso:
     print(f"Você está abaixo do peso com IMC: {IMC:.2f}")
-elif IMC > abaixo_peso and IMC <= peso_normal:
+elif IMC <= peso_normal:
     print(f"Você está no peso normal, com IMC: {IMC:.2f}")
-elif IMC > peso_normal and IMC <= sobrepeso:
+elif IMC <= sobrepeso:
     print(f"Você está com sobrepeso, com IMC: {IMC:.2f}")
 elif IMC <= obesidade_I:
     print(f"Você está com obesidade grau I, com IMC: {IMC:.2f}")
