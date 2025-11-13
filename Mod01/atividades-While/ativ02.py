@@ -13,6 +13,5 @@ soma = 0
 while numero <= 100:
     soma += numero
     numero += 1   
-    
-print(f"A soma do números de 1 a 100 é: {soma}")        
-    
+# Mostra todos os algarismos somados.   
+print(f"A soma do números de 1 a 100 é: {soma}")

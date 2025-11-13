@@ -7,7 +7,8 @@
 
 i = 0
 
-while i in range(10):
+#Laço que conta de 1 até 10.
+while i <= 10:
     i+=1
     print(i)
     
