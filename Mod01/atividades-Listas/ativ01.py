@@ -1,6 +1,5 @@
 
 usuarios = []
-item = ""
 linha = "="
 #Controle de menu
 while True:
