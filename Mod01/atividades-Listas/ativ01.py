@@ -1,6 +1,6 @@
 
 usuarios = []
-linha = "="
+linha = "=" * 50
 #Controle de menu
 while True:
     print("==== Menu ====\n")
@@ -50,7 +50,8 @@ while True:
                 break
         if not encontrado:
             print("Usuário não encontrado!")
-        
+            
+    # Atualiza os dados do usuário   
     elif option == "3":
         procurar = input("Digite o nome do usuário que deseja atualizar: ").title()
 
@@ -82,7 +83,8 @@ while True:
                 break  # sai do for assim que atualizar
         else:
             print("Usuário não encontrado!")
-
+    #elif option == "4":
+           
             
 
             
