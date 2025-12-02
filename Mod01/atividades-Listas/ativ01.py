@@ -90,7 +90,7 @@ while True:
 
         usuariosRemover = input("Qual o novo do usuário que deseja remover? ").title()
         encontrado = False
-        
+        removendo = None
         #Percorrendo pelo lista     
         for usuario in usuarios:
             
@@ -101,11 +101,14 @@ while True:
                 removendo = usuario
                 break
         else:
-                print("Não encotrado!")    
-                
-        #Removendo o usuário fora do loop
+            print("Não encotrado!") 
+            # volta ao menu sem tentar remover
+            continue  
+        # remover com segurança (só chega aqui se encontrado == True)        
         usuarios.remove(removendo)
         print(f"usuário pagado!")
+        
+        
     elif option == "5":
         print("Programa encerrado!")
         break
