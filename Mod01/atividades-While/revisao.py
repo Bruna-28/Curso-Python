@@ -18,8 +18,7 @@
 
     Iteração sobre Coleções:
     Percorrer elementos de listas, tuplas, conjuntos
-    e dicionários (Iremos profundar mais esses
-    conceitos no modulo de Python)
+    e dicionários 
 
     Automação de Tarefas Repetitivas:
     Executar tarefas repetitivas de forma eficiente.
@@ -31,3 +30,48 @@
     Controlar o fluxo de jogos e simulações
     baseadas em condições variáveis.
 """
+
+# =========== Funcionamento do While =========== 
+
+# Um laço quee soma números até atingir um limite.
+"""soma = 0
+numero = 0
+
+while numero <= 10:
+    print(f"Soma inicial: {soma} \nNúmero inicial: {numero} ")
+    print(f"Somando: {soma} + {numero} ")
+    soma+=numero
+    print(f"Resultado: {soma} ")
+    
+    numero += 1
+    print(f"Próximo número: {numero}")
+print(f"A soma dos número de 1 a 10 é: {soma}")
+"""
+#================================================================
+
+"""Laço que conta de 1 a 10
+contagem = 0
+
+while contagem <= 9:
+    print(f"Inicio:{contagem}")
+    
+    contagem += 1
+    print(f"Passo:{contagem}")
+print(f"Fim:{contagem}")
+"""
+#================================================================
+
+# Soma de números de 1 a 100:
+
+soma = 0
+numeros = 0
+while numeros <= 100:
+    print(f"{soma} + {numeros}")
+    
+    soma += numeros
+    
+    print(f"Somados: {soma}")
+    
+    numeros += 1
+    print(f"controlador de loop: {numeros}")
+print(f"Resultado {soma}")
