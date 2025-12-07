@@ -9,6 +9,6 @@ i = 0
 
 #Laço que conta de 1 até 10.
 while i <= 10:
-    i+=1
-    print(i)
+    i+=1 # Encremento de controle do laço
+    print(i) # Mostra cada número até chegar no limite
     

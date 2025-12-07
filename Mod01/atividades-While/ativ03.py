@@ -4,11 +4,13 @@
     Faça um programa que solicite um número ao usuário e use
     um laço while para exibir a tabuada desse número (de 1 a 10).
 """
-"""
+num1 = int(input("Digite um número: "))
+i = 0
 while i <= 10:
-    num2 += 1
-    print(num2)
-    
+    num1 += i
+    i += 1
+    print(num1)
+"""   
 - O Python entra no while e verifica se i <= 10.
 - Se for verdade (por exemplo, i = 0), ele executa o bloco.
 - Mas dentro do bloco você nunca altera o valor de i, então i 
