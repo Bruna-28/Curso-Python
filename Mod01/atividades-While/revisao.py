@@ -49,7 +49,8 @@ print(f"A soma dos número de 1 a 10 é: {soma}")
 """
 #================================================================
 
-"""Laço que conta de 1 a 10
+"""
+Laço que conta de 1 a 10
 contagem = 0
 
 while contagem <= 9:
@@ -60,7 +61,7 @@ while contagem <= 9:
 print(f"Fim:{contagem}")
 """
 #================================================================
-
+"""
 # Soma de números de 1 a 100:
 
 soma = 0
@@ -69,9 +70,10 @@ while numeros <= 100:
     print(f"{soma} + {numeros}")
     
     soma += numeros
-    
     print(f"Somados: {soma}")
     
     numeros += 1
     print(f"controlador de loop: {numeros}")
 print(f"Resultado {soma}")
+"""
+#================================================================
