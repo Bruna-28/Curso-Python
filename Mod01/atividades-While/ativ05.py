@@ -4,13 +4,11 @@
         um laço while para contar de 1 até o número inserido,
         exibindo apenas os números ímpares.
 """
-number = 0
-numberUser = int(input("digite um número: "))
+inicio = 1
+fim = int(input("Digite um número para saber os seus ímpares: "))
 
-while number < numberUser:
+while inicio <= fim:
     
-    resto = numberUser % 2 == 0
-    
-    if numberUser % 2 == 0:
-        resto += numberUser
-print(f"Número Ímpares: {numberUser}")       
+    if inicio % 2 != 0: 
+       print(inicio)
+    inicio += 1
