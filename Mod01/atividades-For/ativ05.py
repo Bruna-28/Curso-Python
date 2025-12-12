@@ -35,18 +35,17 @@ print(f"Números de vogais: {contador_vogais}")
         laço for com uma condicional para contar quantos são positivos e
         quantos são negativos.
 """
-contador_ = 0
-contador_impares = 0
 
 for i in range(1,11):
-    if i > 0:
-        num = int(input(f"Digite o número: "))
-        if num <= 0:
-            print("Entrada inválida!")
-        elif num > 0:
-            contador_pares +=1
-        else:
-            contador_impares += 1        
-print(f"Números pares: {contador_pares}")
-print(f"Números ímpares: {contador_impares}")
- 
+    numerDoUsuario = int(input("Digite um número: "))
+    i += 1 
+    print(i)
+    if numerDoUsuario < 0 and numerDoUsuario > 0:
+        numerDoUsuario+=i
+        print(f"Números positivos: {numerDoUsuario}")
+        
+        numerDoUsuario+=i
+        print(f"Números negativos: {numerDoUsuario}")   
+
+    
+                

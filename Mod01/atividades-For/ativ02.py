@@ -10,6 +10,6 @@ for i in range(1, 101):# 1, 101, mas conta 100 números.
 print(f"A soma de todos os números é: {soma}")
 
 """✔️ Explicação rápida
- - range(1, 101) → vai de 1 até 100 (o 101 não entra).
- - soma += i → soma cada número dentro do loop.
+ - range(1, 101) → vai de 1 até 100 (o 101 não entra na contagem).
+ - soma += i → soma cada número de i dentro do loop.
  - Resultado final = 5050."""
